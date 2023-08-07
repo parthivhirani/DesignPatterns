@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
+        "projectName": "AbstractFactoryPattern",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+        "projectName": "BusinessAccessLayer",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "projectName": "CQRSPattern",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+        "projectName": "DesignPatternPracticals",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
+              },
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj"
+              },
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj"
+              },
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectName": "RepositoryPattern",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,846 @@
+2023-08-07 12:39:03.174 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 12:39:03.210 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 12:39:03.212 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 12:39:03.213 +05:30 [INF] Hosting environment: Development
+2023-08-07 12:39:03.214 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 12:39:05.247 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 12:39:05.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 12:39:05.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 12:39:05.590 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 332.2844ms
+2023-08-07 12:39:05.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 33.7379ms
+2023-08-07 12:39:05.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.2348ms
+2023-08-07 12:39:05.807 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 12:39:05.875 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 12:39:05.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 87.1415ms
+2023-08-07 12:41:09.119 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 12:41:09.167 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 12:41:09.172 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 12:41:09.173 +05:30 [INF] Hosting environment: Development
+2023-08-07 12:41:09.173 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 12:41:10.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 12:41:10.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 205.9925ms
+2023-08-07 12:41:10.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 12:41:10.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 12:41:10.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 15.4271ms
+2023-08-07 12:41:10.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.4570ms
+2023-08-07 12:41:10.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 12:41:10.642 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 12:41:10.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 80.4562ms
+2023-08-07 12:48:46.676 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 12:48:46.704 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 12:48:46.709 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 12:48:46.710 +05:30 [INF] Hosting environment: Development
+2023-08-07 12:48:46.711 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 12:48:47.643 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 12:48:47.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 12:48:47.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 12:48:47.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 197.3275ms
+2023-08-07 12:48:47.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 12.9952ms
+2023-08-07 12:48:47.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.7392ms
+2023-08-07 12:48:47.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 12:48:48.025 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 12:48:48.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 103.1680ms
+2023-08-07 13:31:55.826 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:31:55.859 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:31:55.862 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:31:55.863 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:31:55.864 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:31:57.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:31:57.276 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:31:57.276 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:31:57.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 217.2819ms
+2023-08-07 13:31:57.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 21.4102ms
+2023-08-07 13:31:57.318 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.5652ms
+2023-08-07 13:31:57.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:31:57.469 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:31:57.491 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 104.9719ms
+2023-08-07 13:33:47.486 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:33:47.534 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:33:47.538 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:33:47.540 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:33:47.540 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:33:48.442 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:33:48.637 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:33:48.637 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:33:48.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 205.8775ms
+2023-08-07 13:33:48.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 25.6158ms
+2023-08-07 13:33:48.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.9758ms
+2023-08-07 13:33:48.754 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:33:48.831 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:33:48.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 96.7906ms
+2023-08-07 13:33:53.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:33:53.796 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:33:53.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 500 - text/html;+charset=utf-8 60.2639ms
+2023-08-07 13:33:53.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:33:53.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:33:53.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 1.8850ms
+2023-08-07 13:33:53.978 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.9701ms
+2023-08-07 13:33:54.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/favicon.ico - -
+2023-08-07 13:33:54.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/favicon.ico - - - 404 0 - 1.2239ms
+2023-08-07 13:34:32.082 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:34:32.143 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:34:32.146 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:34:32.147 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:34:32.147 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:34:33.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:34:33.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:34:33.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:34:33.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 200.1944ms
+2023-08-07 13:34:33.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 14.7344ms
+2023-08-07 13:34:33.242 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.8547ms
+2023-08-07 13:34:33.312 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:34:33.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.5492ms
+2023-08-07 13:34:49.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:34:50.001 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:34:50.015 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:34:50.020 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 1.2391ms
+2023-08-07 13:34:50.023 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:34:50.026 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessAccessLayer.EmployeeFactory' while attempting to activate 'DesignPatternPracticals.Controllers.FactoryPatternController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:34:50.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - - - 500 - text/plain;+charset=utf-8 47.1694ms
+2023-08-07 13:35:53.187 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:35:53.239 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:35:53.244 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:35:53.245 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:35:53.245 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:35:54.195 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:35:54.399 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 204.2887ms
+2023-08-07 13:35:54.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:35:54.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:35:54.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 16.8583ms
+2023-08-07 13:35:54.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9419ms
+2023-08-07 13:35:54.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:35:54.623 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.7557ms
+2023-08-07 13:36:10.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:36:10.256 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:36:10.270 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:36:10.276 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 1.3545ms
+2023-08-07 13:36:10.279 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:36:10.282 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessAccessLayer.EmployeeFactory' while attempting to activate 'DesignPatternPracticals.Controllers.FactoryPatternController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:36:10.296 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - - - 500 - text/plain;+charset=utf-8 46.1130ms
+2023-08-07 13:37:37.852 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:37:37.902 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:37:37.907 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:37:37.908 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:37:37.909 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:37:38.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:37:38.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:37:38.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:37:38.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 211.4414ms
+2023-08-07 13:37:38.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 29.4592ms
+2023-08-07 13:37:38.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.8243ms
+2023-08-07 13:37:39.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:37:39.156 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.3929ms
+2023-08-07 13:37:51.483 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:37:51.488 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:37:51.502 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:37:51.507 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 1.1334ms
+2023-08-07 13:37:51.509 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:37:51.511 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessAccessLayer.EmployeeFactory' while attempting to activate 'DesignPatternPracticals.Controllers.FactoryPatternController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 13:37:51.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - - - 500 - text/plain;+charset=utf-8 43.2015ms
+2023-08-07 13:38:43.004 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:38:43.071 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:38:43.075 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:38:43.078 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:38:43.080 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:38:44.193 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:38:44.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:38:44.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:38:44.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 270.7960ms
+2023-08-07 13:38:44.485 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 20.8597ms
+2023-08-07 13:38:44.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.7400ms
+2023-08-07 13:38:44.580 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:38:44.694 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.0041ms
+2023-08-07 13:38:59.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:38:59.121 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:38:59.135 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:39:53.831 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:39:53.905 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:39:53.909 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:39:53.910 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:39:53.911 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:39:55.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:39:55.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:39:55.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:39:55.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 210.2186ms
+2023-08-07 13:39:55.270 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 13.6238ms
+2023-08-07 13:39:55.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.0002ms
+2023-08-07 13:39:55.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:39:55.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.6456ms
+2023-08-07 13:40:05.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:40:05.547 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:40:05.560 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:40:40.024 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:40:40.066 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:40:40.070 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:40:40.071 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:40:40.072 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:40:41.241 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:40:41.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:40:41.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:40:41.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 216.7834ms
+2023-08-07 13:40:41.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 17.4197ms
+2023-08-07 13:40:41.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.1356ms
+2023-08-07 13:40:41.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:40:41.690 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.1918ms
+2023-08-07 13:40:51.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:40:51.354 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:40:51.368 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:41:15.857 +05:30 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-08-07 13:41:15.860 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 24488.5688ms
+2023-08-07 13:41:15.862 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:41:15.863 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - - - 204 - - 24516.8530ms
+2023-08-07 13:44:50.228 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:44:50.303 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:44:50.307 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:44:50.310 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:44:50.311 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:44:51.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:44:51.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 206.0705ms
+2023-08-07 13:44:51.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:44:51.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:44:51.657 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 16.3626ms
+2023-08-07 13:44:51.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4003ms
+2023-08-07 13:44:51.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:44:51.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.7051ms
+2023-08-07 13:45:03.045 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:45:03.050 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:45:03.063 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:47:46.185 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:47:46.235 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:47:46.239 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:47:46.240 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:47:46.241 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:47:47.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:47:47.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:47:47.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:47:47.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 223.2428ms
+2023-08-07 13:47:47.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 12.9213ms
+2023-08-07 13:47:47.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.3056ms
+2023-08-07 13:47:47.585 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:47:47.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.8892ms
+2023-08-07 13:47:58.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:47:58.628 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:47:58.641 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:49:31.788 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:49:31.853 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:49:31.855 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:49:31.856 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:49:31.856 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:49:32.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:49:33.071 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:49:33.071 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:49:33.073 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 224.1043ms
+2023-08-07 13:49:33.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 18.8863ms
+2023-08-07 13:49:33.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.4130ms
+2023-08-07 13:49:33.170 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:49:33.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.0656ms
+2023-08-07 13:49:48.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:49:48.437 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:49:48.451 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:51:40.564 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:51:40.617 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:51:40.620 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:51:40.621 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:51:40.622 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:51:41.771 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:51:41.988 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:51:41.988 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:51:41.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 218.8160ms
+2023-08-07 13:51:42.004 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 15.8790ms
+2023-08-07 13:51:42.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.1450ms
+2023-08-07 13:51:42.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:51:42.231 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.1915ms
+2023-08-07 13:51:54.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:51:54.064 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:51:54.077 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:52:47.497 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:52:47.565 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:52:47.569 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:52:47.570 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:52:47.571 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:52:48.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:52:48.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:52:48.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:52:48.947 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 203.8868ms
+2023-08-07 13:52:48.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 23.7827ms
+2023-08-07 13:52:48.991 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.8244ms
+2023-08-07 13:52:49.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:52:49.181 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.8032ms
+2023-08-07 13:53:02.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:53:02.323 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:53:02.338 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:54:53.145 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:54:53.258 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:54:53.264 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:54:53.266 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:54:53.267 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:54:54.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:54:54.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:54:54.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:54:54.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 299.0919ms
+2023-08-07 13:54:54.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 21.5603ms
+2023-08-07 13:54:54.711 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.0735ms
+2023-08-07 13:54:54.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:54:54.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.7564ms
+2023-08-07 13:55:06.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 13:55:06.870 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:55:06.885 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 13:59:23.912 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 13:59:23.976 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 13:59:23.980 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 13:59:23.981 +05:30 [INF] Hosting environment: Development
+2023-08-07 13:59:23.982 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 13:59:25.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 13:59:25.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 13:59:25.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 13:59:25.402 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 230.4990ms
+2023-08-07 13:59:25.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 16.8808ms
+2023-08-07 13:59:25.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3800ms
+2023-08-07 13:59:25.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 13:59:25.620 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.7199ms
+2023-08-07 13:59:36.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=1 - -
+2023-08-07 13:59:36.419 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 13:59:36.432 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:00:20.202 +05:30 [INF] Executing OkObjectResult, writing value of type 'BusinessAccessLayer.Models.OverTimePaymentDetailsIT'.
+2023-08-07 14:00:20.255 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 43818.8536ms
+2023-08-07 14:00:20.258 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:00:20.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=1 - - - 200 - application/json;+charset=utf-8 43846.2803ms
+2023-08-07 14:03:06.232 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:03:06.306 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:03:06.310 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:03:06.312 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:03:06.313 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:03:07.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:03:07.679 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:03:07.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:03:07.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 201.8008ms
+2023-08-07 14:03:07.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 18.1755ms
+2023-08-07 14:03:07.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.2023ms
+2023-08-07 14:03:07.764 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:03:07.892 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.3515ms
+2023-08-07 14:03:17.094 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=1 - -
+2023-08-07 14:03:17.100 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:03:17.114 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:03:20.419 +05:30 [INF] Executing OkObjectResult, writing value of type 'BusinessAccessLayer.Models.OverTimePaymentDetailsIT'.
+2023-08-07 14:03:20.428 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 3309.5131ms
+2023-08-07 14:03:20.430 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:03:20.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=1 - - - 200 - application/json;+charset=utf-8 3336.7490ms
+2023-08-07 14:03:30.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=1 - -
+2023-08-07 14:03:30.045 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:03:30.047 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:08:15.752 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:08:15.810 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:08:15.813 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:08:15.814 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:08:15.815 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:08:16.816 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:08:17.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:08:17.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:08:17.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 217.4896ms
+2023-08-07 14:08:17.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 12.2506ms
+2023-08-07 14:08:17.066 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1453ms
+2023-08-07 14:08:17.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:08:17.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.0738ms
+2023-08-07 14:08:27.707 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - -
+2023-08-07 14:08:27.713 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:08:27.725 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:08:30.372 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-08-07 14:08:30.383 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 2653.2976ms
+2023-08-07 14:08:30.387 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:08:30.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=10 - - - 200 - application/json;+charset=utf-8 2680.7138ms
+2023-08-07 14:23:59.492 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:23:59.524 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:23:59.527 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:23:59.528 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:23:59.529 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:24:00.460 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:24:00.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 199.0435ms
+2023-08-07 14:24:00.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:24:00.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:24:00.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 19.4923ms
+2023-08-07 14:24:00.705 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.5589ms
+2023-08-07 14:24:00.765 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:24:00.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.0175ms
+2023-08-07 14:24:16.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/CQRSPattern/GetAll - -
+2023-08-07 14:24:16.751 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.CQRSPatternController.GetAll (DesignPatternPracticals)'
+2023-08-07 14:24:16.762 +05:30 [INF] Route matched with {action = "GetAll", controller = "CQRSPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DesignPatternPracticals.Controllers.CQRSPatternController (DesignPatternPracticals).
+2023-08-07 14:24:16.894 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CQRSPattern.Models.EmployeeQueryModel, CQRSPattern, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-07 14:24:16.912 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.CQRSPatternController.GetAll (DesignPatternPracticals) in 146.615ms
+2023-08-07 14:24:16.915 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.CQRSPatternController.GetAll (DesignPatternPracticals)'
+2023-08-07 14:24:16.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/CQRSPattern/GetAll - - - 200 - application/json;+charset=utf-8 171.7311ms
+2023-08-07 14:25:12.157 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7184/api/CQRSPattern/CreateEmployee application/json 162
+2023-08-07 14:25:12.166 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.CQRSPatternController.CreateEmployee (DesignPatternPracticals)'
+2023-08-07 14:25:12.173 +05:30 [INF] Route matched with {action = "CreateEmployee", controller = "CQRSPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateEmployee(CQRSPattern.Models.EmployeeCommandModel) on controller DesignPatternPracticals.Controllers.CQRSPatternController (DesignPatternPracticals).
+2023-08-07 14:25:12.219 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-07 14:25:12.221 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.CQRSPatternController.CreateEmployee (DesignPatternPracticals) in 47.1748ms
+2023-08-07 14:25:12.223 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.CQRSPatternController.CreateEmployee (DesignPatternPracticals)'
+2023-08-07 14:25:12.224 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7184/api/CQRSPattern/CreateEmployee application/json 162 - 200 - text/plain;+charset=utf-8 66.3767ms
+2023-08-07 14:25:56.255 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=5 - -
+2023-08-07 14:25:56.258 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:25:56.260 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:26:19.777 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-08-07 14:26:19.780 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 23518.6107ms
+2023-08-07 14:26:19.781 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:26:19.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=5 - - - 200 - application/json;+charset=utf-8 23527.1086ms
+2023-08-07 14:26:47.543 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:26:47.567 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:26:47.570 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:26:47.570 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:26:47.571 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:26:48.373 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:26:48.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:26:48.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:26:48.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 238.8956ms
+2023-08-07 14:26:48.629 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 18.8270ms
+2023-08-07 14:26:48.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5650ms
+2023-08-07 14:26:48.707 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:26:48.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.6165ms
+2023-08-07 14:27:01.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=5&hours=5 - -
+2023-08-07 14:27:01.446 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:27:01.461 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:27:48.351 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 46884.9396ms
+2023-08-07 14:27:48.357 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:27:48.362 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BusinessAccessLayer.EmployeeFactory.CreateEmployee(Int32 empId) in C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\BusinessAccessLayer\EmployeeFactory.cs:line 25
+   at DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment(Int32 id, Int32 hours) in C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals\Controllers\FactoryPatternController.cs:line 14
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 14:27:48.390 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=5&hours=5 - - - 500 - text/plain;+charset=utf-8 46950.5124ms
+2023-08-07 14:27:57.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=5 - -
+2023-08-07 14:27:57.825 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:27:57.827 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:28:18.782 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 14:28:18.808 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 20979.8983ms
+2023-08-07 14:28:18.809 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:28:18.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=5 - - - 200 - application/json;+charset=utf-8 20988.4888ms
+2023-08-07 14:31:54.656 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:31:54.696 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:31:54.700 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:31:54.701 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:31:54.702 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:31:55.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:31:56.048 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 207.8128ms
+2023-08-07 14:31:56.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:31:56.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:31:56.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 22.6030ms
+2023-08-07 14:31:56.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.9615ms
+2023-08-07 14:31:56.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:31:56.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.2838ms
+2023-08-07 14:32:07.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=5&hours=5 - -
+2023-08-07 14:32:07.135 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:32:07.148 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:36:57.521 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:36:57.562 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:36:57.564 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:36:57.565 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:36:57.565 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:36:58.750 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:36:59.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:36:59.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:36:59.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 391.6794ms
+2023-08-07 14:36:59.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 21.1387ms
+2023-08-07 14:36:59.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.5812ms
+2023-08-07 14:36:59.278 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:36:59.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.2976ms
+2023-08-07 14:37:10.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=11 - -
+2023-08-07 14:37:10.738 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:37:10.755 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:37:14.493 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 14:37:14.509 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 3749.2848ms
+2023-08-07 14:37:14.512 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:37:14.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=1&hours=11 - - - 200 - application/json;+charset=utf-8 3784.7964ms
+2023-08-07 14:37:24.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=11 - -
+2023-08-07 14:37:24.109 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:37:24.111 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:37:28.245 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 14:37:28.247 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 4134.2318ms
+2023-08-07 14:37:28.248 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:37:28.249 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=6&hours=11 - - - 200 - application/json;+charset=utf-8 4142.8192ms
+2023-08-07 14:41:00.894 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:41:00.940 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:41:00.943 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:41:00.945 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:41:00.945 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:41:01.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:41:02.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:41:02.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:41:02.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 239.0232ms
+2023-08-07 14:41:02.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 23.1696ms
+2023-08-07 14:41:02.222 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.6308ms
+2023-08-07 14:41:02.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:41:02.390 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.6223ms
+2023-08-07 14:41:12.356 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=10&hours=10 - -
+2023-08-07 14:41:12.362 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:41:12.377 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:41:25.319 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 12937.1335ms
+2023-08-07 14:41:25.322 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:41:25.324 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment(Int32 id, Int32 hours) in C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals\Controllers\FactoryPatternController.cs:line 15
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-07 14:41:25.347 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern?id=10&hours=10 - - - 500 - text/plain;+charset=utf-8 12991.3831ms
+2023-08-07 14:43:32.562 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:43:32.596 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:43:32.597 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:43:32.598 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:43:32.599 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:43:33.375 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:43:33.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:43:33.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:43:33.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 241.8882ms
+2023-08-07 14:43:33.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 26.1759ms
+2023-08-07 14:43:33.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.5888ms
+2023-08-07 14:43:33.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:43:33.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.6221ms
+2023-08-07 14:43:50.130 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 14:43:50.154 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 14:43:50.156 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 14:43:50.157 +05:30 [INF] Hosting environment: Development
+2023-08-07 14:43:50.157 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 14:43:51.201 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 14:43:51.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 14:43:51.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 14:43:51.399 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 197.6404ms
+2023-08-07 14:43:51.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 20.6858ms
+2023-08-07 14:43:51.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.9273ms
+2023-08-07 14:43:51.517 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 14:43:51.633 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.7482ms
+2023-08-07 14:44:08.642 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=5&hours=3 - -
+2023-08-07 14:44:08.648 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:44:08.661 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:44:08.804 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 14:44:08.812 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 146.9238ms
+2023-08-07 14:44:08.815 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:44:08.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=5&hours=3 - - - 400 - application/json;+charset=utf-8 173.2124ms
+2023-08-07 14:44:36.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=6&hours=3 - -
+2023-08-07 14:44:36.473 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:44:36.475 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 14:44:36.489 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 14:44:36.494 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 17.7847ms
+2023-08-07 14:44:36.495 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 14:44:36.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=6&hours=3 - - - 200 - application/json;+charset=utf-8 27.6846ms
+2023-08-07 15:38:51.873 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 15:38:51.928 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 15:38:51.934 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 15:38:51.935 +05:30 [INF] Hosting environment: Development
+2023-08-07 15:38:51.936 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 15:38:52.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 15:38:52.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 208.4266ms
+2023-08-07 15:38:52.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 15:38:52.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 15:38:52.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 51.1323ms
+2023-08-07 15:38:53.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.5922ms
+2023-08-07 15:38:53.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 15:38:53.223 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.8013ms
+2023-08-07 15:39:07.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=1&hours=11 - -
+2023-08-07 15:39:07.232 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 15:39:07.247 +05:30 [INF] Route matched with {action = "GetOvertimePayment", controller = "FactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOvertimePayment(Int32, Int32) on controller DesignPatternPracticals.Controllers.FactoryPatternController (DesignPatternPracticals).
+2023-08-07 15:39:07.401 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 15:39:07.414 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals) in 162.8124ms
+2023-08-07 15:39:07.417 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.FactoryPatternController.GetOvertimePayment (DesignPatternPracticals)'
+2023-08-07 15:39:07.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/FactoryPattern/GetOvertimePayment?id=1&hours=11 - - - 200 - application/json;+charset=utf-8 193.3942ms
+2023-08-07 18:06:31.221 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:06:31.254 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:06:31.256 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:06:31.256 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:06:31.257 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:06:32.471 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:06:32.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:06:32.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:06:32.711 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 240.3638ms
+2023-08-07 18:06:32.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 18.7631ms
+2023-08-07 18:06:32.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.4173ms
+2023-08-07 18:06:32.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:06:32.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.9966ms
+2023-08-07 18:06:45.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=1&hours=10 - -
+2023-08-07 18:06:45.358 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:06:45.372 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:08:22.577 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:08:22.649 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:08:22.654 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:08:22.656 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:08:22.657 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:08:23.910 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:08:24.138 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:08:24.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 228.9271ms
+2023-08-07 18:08:24.138 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:08:24.164 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 25.8575ms
+2023-08-07 18:08:24.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.3113ms
+2023-08-07 18:08:24.257 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:08:24.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.4784ms
+2023-08-07 18:08:35.531 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=1&hours=10 - -
+2023-08-07 18:08:35.538 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:08:35.550 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:08:37.833 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:08:37.844 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2288.4561ms
+2023-08-07 18:08:37.847 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:08:37.848 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=1&hours=10 - - - 200 - application/json;+charset=utf-8 2316.9189ms
+2023-08-07 18:09:06.923 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:09:07.004 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:09:07.009 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:09:07.011 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:09:07.011 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:09:08.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:09:08.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:09:08.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:09:08.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 276.2373ms
+2023-08-07 18:09:08.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 13.4405ms
+2023-08-07 18:09:08.472 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.0389ms
+2023-08-07 18:09:08.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:09:08.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.0189ms
+2023-08-07 18:09:17.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=1&hours=1 - -
+2023-08-07 18:09:17.941 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:17.954 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:09:20.495 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:09:20.506 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2547.6042ms
+2023-08-07 18:09:20.509 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:20.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=1&hours=1 - - - 200 - application/json;+charset=utf-8 2575.5369ms
+2023-08-07 18:09:35.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=6&hours=1 - -
+2023-08-07 18:09:35.834 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:35.837 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:09:37.997 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:09:38.000 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2161.691ms
+2023-08-07 18:09:38.001 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:38.002 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=6&hours=1 - - - 400 - application/json;+charset=utf-8 2171.0240ms
+2023-08-07 18:09:47.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=69&hours=1 - -
+2023-08-07 18:09:47.069 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:47.071 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:09:49.336 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:09:49.339 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2266.7615ms
+2023-08-07 18:09:49.340 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:09:49.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=69&hours=1 - - - 400 - application/json;+charset=utf-8 2275.1002ms
+2023-08-07 18:11:20.566 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:11:20.612 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:11:20.618 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:11:20.619 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:11:20.620 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:11:21.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:11:21.885 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:11:21.887 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:11:21.889 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 218.2008ms
+2023-08-07 18:11:21.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 15.0864ms
+2023-08-07 18:11:21.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.8875ms
+2023-08-07 18:11:22.001 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:11:22.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.1865ms
+2023-08-07 18:11:32.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=6&hours=10 - -
+2023-08-07 18:11:32.672 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:11:32.686 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:11:35.588 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:11:35.599 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2909.8865ms
+2023-08-07 18:11:35.602 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:11:35.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=6&hours=10 - - - 200 - application/json;+charset=utf-8 2936.7993ms
+2023-08-07 18:11:52.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=60&hours=10 - -
+2023-08-07 18:11:52.199 +05:30 [INF] Executing endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:11:52.201 +05:30 [INF] Route matched with {action = "GetEmployeeOvertimePay", controller = "AbstractFactoryPattern"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeOvertimePay(Int32, Int32) on controller DesignPatternPracticals.Controllers.AbstractFactoryPatternController (DesignPatternPracticals).
+2023-08-07 18:11:54.246 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-07 18:11:54.249 +05:30 [INF] Executed action DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals) in 2046.0701ms
+2023-08-07 18:11:54.250 +05:30 [INF] Executed endpoint 'DesignPatternPracticals.Controllers.AbstractFactoryPatternController.GetEmployeeOvertimePay (DesignPatternPracticals)'
+2023-08-07 18:11:54.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/api/AbstractFactoryPattern/GetEmployeeOvertimePay?id=60&hours=10 - - - 400 - application/json;+charset=utf-8 2057.4009ms
+2023-08-07 18:15:38.680 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:15:38.717 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:15:38.719 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:15:38.720 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:15:38.721 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:15:39.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:15:40.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:15:40.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:15:40.016 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 235.7924ms
+2023-08-07 18:15:40.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 20.4606ms
+2023-08-07 18:15:40.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7975ms
+2023-08-07 18:15:40.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:15:40.274 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.8092ms
+2023-08-07 18:36:17.465 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:36:17.506 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:36:17.508 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:36:17.509 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:36:17.509 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:36:18.876 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:36:19.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:36:19.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:36:19.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 237.4001ms
+2023-08-07 18:36:19.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 12.9214ms
+2023-08-07 18:36:19.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9401ms
+2023-08-07 18:36:19.210 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:36:19.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.2330ms
+2023-08-07 18:36:43.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - -
+2023-08-07 18:36:43.029 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 5.4559ms
+2023-08-07 18:41:39.752 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:41:39.798 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:41:39.801 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:41:39.802 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:41:39.802 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:41:40.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:41:40.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:41:40.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:41:40.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 303.2590ms
+2023-08-07 18:41:40.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 16.0085ms
+2023-08-07 18:41:40.898 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.6674ms
+2023-08-07 18:41:40.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:41:41.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.9705ms
+2023-08-07 18:41:51.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - -
+2023-08-07 18:41:51.112 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 5.9230ms
+2023-08-07 18:41:55.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v2.1/swagger.json - -
+2023-08-07 18:41:55.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v2.1/swagger.json - - - 200 - application/json;charset=utf-8 2.8832ms
+2023-08-07 18:42:09.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v3/swagger.json - -
+2023-08-07 18:42:09.390 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v3/swagger.json - - - 200 - application/json;charset=utf-8 14.7300ms
+2023-08-07 18:42:35.762 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v5/swagger.json - -
+2023-08-07 18:42:35.769 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v5/swagger.json - - - 200 - application/json;charset=utf-8 6.3116ms
+2023-08-07 18:49:55.819 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:49:55.867 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:49:55.872 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:49:55.874 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:49:55.875 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:49:57.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:50:50.379 +05:30 [INF] Now listening on: https://localhost:7184
+2023-08-07 18:50:50.411 +05:30 [INF] Now listening on: http://localhost:5102
+2023-08-07 18:50:50.413 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-07 18:50:50.413 +05:30 [INF] Hosting environment: Development
+2023-08-07 18:50:50.414 +05:30 [INF] Content root path: C:\Users\parthiv\Documents\Parthiv\ASP .NET Core\Practicals\DesignPatternPracticals
+2023-08-07 18:50:51.388 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/index.html - -
+2023-08-07 18:50:51.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_vs/browserLink - -
+2023-08-07 18:50:51.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - -
+2023-08-07 18:50:51.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/index.html - - - 200 - text/html;charset=utf-8 225.8216ms
+2023-08-07 18:50:51.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 27.2773ms
+2023-08-07 18:50:51.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.6593ms
+2023-08-07 18:50:51.747 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - -
+2023-08-07 18:50:51.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.5059ms
+2023-08-07 18:51:09.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - -
+2023-08-07 18:51:09.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7184/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 3.6667ms
