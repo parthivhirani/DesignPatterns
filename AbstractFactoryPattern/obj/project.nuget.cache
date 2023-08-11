@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LSo5GKgnx0XVOJxGGKNkCaurmwMqksQq0UnEks4N38VUagoCqg5WtJo6hqzHY3DBQooZGbqKM6cqERdaOS57iw==",
+  "dgSpecHash": "6ss08o0RzaxiV6XGjk+XiMLnqMvhxmRHC/fuQe+hOeHAX3aNAo3ml8pQkY6tEW3hMPYOtZHAFf5f1Z2FI6x8ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
+  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
