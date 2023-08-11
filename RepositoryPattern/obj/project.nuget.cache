@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FwFPABhJlq9ViuVKom9ilkIvsnt2Kkhfh9/CLenmaF5WqkbHvbGT6XD+Hy/mX+mVxykmxV/W7rxcEik3zC835w==",
+  "dgSpecHash": "cTmE94ZwhJ7LU310Pq6SIBBW07J5vEq3BFNyTBSC8m+vSNyNlBtmzquhcrypAGcciqrc5dNQETSetjgCgJFWGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj",
+  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

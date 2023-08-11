@@ -1,4 +1,5 @@
-﻿using RepositoryPattern.Interfaces;
+﻿using RepositoryPattern.DataConnection;
+using RepositoryPattern.Interfaces;
 using RepositoryPattern.Models;
 using System.Data;
 using System.Data.SqlClient;
@@ -7,8 +8,7 @@ namespace RepositoryPattern.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        string conString = "data source=.; database=DPPractical; user id=parthiv; password=Rmha@12345678";
-
+        private readonly string conString = DBCS.ConnectionString();
         public bool CreateEmployee(EmployeeR employee)
         {
             if (employee != null)
@@ -105,8 +105,9 @@ namespace RepositoryPattern.Repository
         {
             using (var con = new SqlConnection(conString))
             {
+                SqlDataAdapter da = null;
                 con.Open();
-                var da = new SqlDataAdapter("SELECT * FROM Employee;", con);
+                da = new SqlDataAdapter("SELECT * FROM Employee;", con);
                 if (id != null && id != 0)
                     da = new SqlDataAdapter($"SELECT * FROM Employee WHERE Id={id};", con);
 
