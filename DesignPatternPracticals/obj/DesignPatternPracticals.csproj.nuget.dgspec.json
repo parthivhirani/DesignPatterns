@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {}
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
         "projectName": "AbstractFactoryPattern",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,18 +55,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
         "projectName": "BusinessAccessLayer",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,18 +110,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj",
         "projectName": "CQRSPattern",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,18 +171,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,18 +232,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
         "projectName": "DesignPatternPracticals",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,27 +254,30 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
-                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
               },
-              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj"
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj"
               },
-              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
-                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj"
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj"
               },
-              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj": {
-                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj"
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj"
+              },
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj"
               }
             }
           }
@@ -299,7 +302,11 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -329,18 +336,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj",
-        "projectName": "RepositoryPattern",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj",
+        "projectName": "MediatorComponent",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -357,6 +364,79 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectName": "RepositoryPattern",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -390,7 +470,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

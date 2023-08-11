@@ -1,6 +1,5 @@
 ﻿using CQRSPattern.Interfaces;
 using CQRSPattern.Models;
-using CQRSPattern.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DesignPatternPracticals.Controllers
@@ -25,7 +24,7 @@ namespace DesignPatternPracticals.Controllers
         public IActionResult GetAll()
         {
             var employees = _employeeQueryRepository.GetAll();
-            if(employees != null)
+            if (employees != null)
                 return Ok(employees);
             return BadRequest();
         }
@@ -35,7 +34,7 @@ namespace DesignPatternPracticals.Controllers
         public IActionResult GetById(int id)
         {
             var emp = _employeeQueryRepository.GetById(id);
-            if(emp.Id != 0)
+            if (emp.Id != 0)
                 return Ok(emp);
             return NotFound();
         }
@@ -44,20 +43,35 @@ namespace DesignPatternPracticals.Controllers
         [MapToApiVersion("5.0")]
         public IActionResult CreateEmployee(EmployeeCommandModel employeeCommandModel)
         {
-            var createdEmp = _employeeCommandRepository.CreateEmployee(employeeCommandModel);
-            if (createdEmp == true)
-                return Ok("Employee created successfully");
-            return BadRequest("Employee can't be created");
+            if (ModelState.IsValid)
+            {
+                var createdEmp = _employeeCommandRepository.CreateEmployee(employeeCommandModel);
+                if (createdEmp == true)
+                    return Ok("Employee created successfully");
+                return BadRequest("Employee can't be created");
+            }
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
+
         }
 
         [HttpPut]
         [MapToApiVersion("5.0")]
-        public IActionResult EditEmployee(int id,  EmployeeCommandModel employeeCommandModel)
+        public IActionResult EditEmployee(int id, EmployeeCommandModel employeeCommandModel)
         {
-            var editedEmp = _employeeCommandRepository.EditEmployee(id, employeeCommandModel);
-            if (editedEmp == true)
-                return Ok("Employee edited successfully");
-            return BadRequest("Employee can't be edited");
+            if (ModelState.IsValid)
+            {
+                var editedEmp = _employeeCommandRepository.EditEmployee(id, employeeCommandModel);
+                if (editedEmp == true)
+                    return Ok("Employee edited successfully");
+                return BadRequest("Employee can't be edited");
+            }
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
         }
 
         [HttpDelete]

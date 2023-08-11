@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryPattern", "..\Rep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSPattern", "..\CQRSPattern\CQRSPattern.csproj", "{645D1D36-4A61-43DC-A5D0-D36D9F16F4BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAccessLayer", "..\BusinessAccessLayer\BusinessAccessLayer.csproj", "{23D7361B-06C9-4FA7-A78A-5A62C3EECD6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessAccessLayer", "..\BusinessAccessLayer\BusinessAccessLayer.csproj", "{23D7361B-06C9-4FA7-A78A-5A62C3EECD6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "..\AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9BF853C3-9B5B-422D-8B00-820E2156C8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "..\AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9BF853C3-9B5B-422D-8B00-820E2156C8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorComponent", "..\MediatorComponent\MediatorComponent.csproj", "{2329ACB7-5647-4CCE-B989-A407861BB45F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9BF853C3-9B5B-422D-8B00-820E2156C8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF853C3-9B5B-422D-8B00-820E2156C8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF853C3-9B5B-422D-8B00-820E2156C8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2329ACB7-5647-4CCE-B989-A407861BB45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2329ACB7-5647-4CCE-B989-A407861BB45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2329ACB7-5647-4CCE-B989-A407861BB45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2329ACB7-5647-4CCE-B989-A407861BB45F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

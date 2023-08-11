@@ -2,6 +2,86 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "FluentValidation/11.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.5.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.5.1"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.5.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.5.1",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
         "type": "package",
         "compile": {
@@ -34,7 +114,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.9": {
+      "Microsoft.AspNetCore.OpenApi/7.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -738,10 +818,26 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "MediatorComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.3.0",
+          "MediatR": "12.1.1",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/MediatorComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediatorComponent.dll": {}
+        }
+      },
       "RepositoryPattern/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "DataAccessLayer": "1.0.0",
           "System.Data.SqlClient": "4.8.5"
         },
         "compile": {
@@ -754,6 +850,95 @@
     }
   },
   "libraries": {
+    "FluentValidation/11.5.1": {
+      "sha512": "0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
+      "type": "package",
+      "path": "fluentvalidation/11.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.5.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.3.0": {
+      "sha512": "jtFVgKnDFySyBlPS8bZbTKEEwJZnn11rXXJ2SQnjDhZ56rQqybBg9Joq4crRLz3y0QR8WoOq4iE4piV81w/Djg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.5.1": {
+      "sha512": "iWM0LS1MDYX06pcjMEQKqHirl2zkjHlNV23mEJSoR1IZI7KQmTa0RcTtGEJpj5+iHvBCfrzP2mYKM4FtRKVb+A==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "MediatR/12.1.1": {
+      "sha512": "1AbwzzeS6gn4NdcO6A9LfKS5TXXgAiUQM3J18dREHa7O7TrdCXJ5dNFeRBpzPZY7UWl5Kby+n9pWrPJe3SDiMA==",
+      "type": "package",
+      "path": "mediatr/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.1.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
       "sha512": "UX8w9BlCiZpr6Ox4YAve1w0CkI1CAovukGNzKd7v0+5pZc8lzuG5tRovucr1RWIKHs0E/Yx8563CN7KzaB3bpw==",
       "type": "package",
@@ -800,10 +985,10 @@
         "microsoft.aspnetcore.mvc.versioning.apiexplorer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.9": {
-      "sha512": "5kBnHntQTJqmYV66Khdl9OJ/j2Pw8cOKj8kNQuLCpfCsPbSijp334Vaad3vaGnG9Wpgq/VbSUSRxZOoroOe8zQ==",
+    "Microsoft.AspNetCore.OpenApi/7.0.10": {
+      "sha512": "p5LiYt1mFJdS70zyHoydahohko2pLIoXiXwANRZGYYyTXcYNQpNUOt+At+lUgGgRwta28sUKVhy2W/93j0qwhA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/7.0.9",
+      "path": "microsoft.aspnetcore.openapi/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -811,7 +996,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -2139,6 +2324,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "MediatorComponent/1.0.0": {
+      "type": "project",
+      "path": "../MediatorComponent/MediatorComponent.csproj",
+      "msbuildProject": "../MediatorComponent/MediatorComponent.csproj"
+    },
     "RepositoryPattern/1.0.0": {
       "type": "project",
       "path": "../RepositoryPattern/RepositoryPattern.csproj",
@@ -2151,9 +2341,11 @@
       "BusinessAccessLayer >= 1.0.0",
       "CQRSPattern >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
+      "MediatorComponent >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.1.0",
-      "Microsoft.AspNetCore.OpenApi >= 7.0.9",
+      "Microsoft.AspNetCore.OpenApi >= 7.0.10",
+      "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "RepositoryPattern >= 1.0.0",
       "Serilog.AspNetCore >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2165,11 +2357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+      "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
       "projectName": "DesignPatternPracticals",
-      "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
+      "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\DesignPatternPracticals.csproj",
       "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DesignPatternPracticals\\obj\\",
+      "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DesignPatternPracticals\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2180,27 +2372,30 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
-              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
             },
-            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj"
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj"
             },
-            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
-              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj"
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj"
             },
-            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj": {
-              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\RepositoryPattern\\RepositoryPattern.csproj"
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\MediatorComponent\\MediatorComponent.csproj"
+            },
+            "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj": {
+              "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\RepositoryPattern\\RepositoryPattern.csproj"
             }
           }
         }
@@ -2225,7 +2420,11 @@
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[7.0.9, )"
+            "version": "[7.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",
@@ -2255,7 +2454,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

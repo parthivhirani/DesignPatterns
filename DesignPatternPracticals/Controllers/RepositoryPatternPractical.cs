@@ -30,20 +30,36 @@ namespace DesignPatternPracticals.Controllers
         [MapToApiVersion("3.0")]
         public IActionResult Create(EmployeeR employee)
         {
-            var addResult = _employeeRepository.CreateEmployee(employee);
-            if (addResult == true)
-                return Ok("Employee added successfully");
-            return BadRequest("There is some error while inserting employee");
+            if(ModelState.IsValid)
+            {
+                var addResult = _employeeRepository.CreateEmployee(employee);
+                if (addResult == true)
+                    return Ok("Employee added successfully");
+                return BadRequest("There is some error while inserting employee");
+            }
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
+            
         }
 
         [HttpPut]
         [MapToApiVersion("3.0")]
         public IActionResult Edit(int id, EmployeeR employee)
         {
-            var editResult = _employeeRepository.EditEmployee(id, employee);
-            if (editResult == true)
-                return Ok("Employee edited successfully");
-            return BadRequest("Employee can't be edited");
+            if(ModelState.IsValid)
+            {
+                var editResult = _employeeRepository.EditEmployee(id, employee);
+                if (editResult == true)
+                    return Ok("Employee edited successfully");
+                return BadRequest("Employee can't be edited");
+            }
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
+            
         }
 
         [HttpDelete]

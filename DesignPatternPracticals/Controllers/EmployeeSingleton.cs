@@ -5,18 +5,15 @@ using Microsoft.AspNetCore.Mvc;
 namespace DesignPatternPracticals.Controllers
 {
     [ApiController]
-    [Route("api/v{version:apiVersion}/[controller]/[action]")]
+    [Route("api/[controller]/[action]")]
     [ApiVersion("1.0")]
     public class EmployeeSingleton : Controller
     {
         private readonly IDataAccessService _dataAccessService;
-        private readonly ILogger<EmployeeSingleton> _logger;
 
-        public EmployeeSingleton(IDataAccessService dataAccessService,
-                                    ILogger<EmployeeSingleton> logger)
+        public EmployeeSingleton(IDataAccessService dataAccessService)
         {
             _dataAccessService = dataAccessService;
-            _logger = logger;
         }
 
         [HttpGet]
@@ -25,11 +22,7 @@ namespace DesignPatternPracticals.Controllers
         {
             var empList = _dataAccessService.GetAllEmployees(id);
             if(empList != null)
-            {
-                _logger.LogInformation($"Employee details retrieved with id = {id}");
                 return Ok(empList);
-            }
-            _logger.LogError($"Can't get employee with id = {id}");
             return NotFound();
         }
 
@@ -37,28 +30,36 @@ namespace DesignPatternPracticals.Controllers
         [MapToApiVersion("1.0")]
         public IActionResult Create(Employee employee)
         {
-            var addResult = _dataAccessService.CreateEmployee(employee);
-            if(addResult == true)
+            if(ModelState.IsValid)
             {
-                _logger.LogInformation($"Employee details added with name = {employee.Name}");
-                return Ok("Employee added successfully");
+                var addResult = _dataAccessService.CreateEmployee(employee);
+                if (addResult == true)
+                    return Ok("Employee added successfully");
+                return BadRequest("There is some error while inserting employee");
             }
-            _logger.LogInformation($"Employee details can't be added with name = {employee.Name}");
-            return BadRequest("There is some error while inserting employee");
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
+            
         }
 
         [HttpPut]
         [MapToApiVersion("1.0")]
         public IActionResult Edit(int id, Employee employee)
         {
-            var editResult = _dataAccessService.EditEmployee(id, employee);
-            if (editResult == true)
+            if (ModelState.IsValid)
             {
-                _logger.LogInformation($"Employee details edited with id = {id}");
-                return Ok("Employee edited successfully");
+                var editResult = _dataAccessService.EditEmployee(id, employee);
+                if (editResult == true)
+                    return Ok("Employee edited successfully");
+                return BadRequest("Employee can't be edited");
             }
-            _logger.LogInformation($"Employee details can't be edited with id = {id}");
-            return BadRequest("Employee can't be edited");
+            else
+            {
+                return BadRequest("Please enter valid employee details");
+            }
+            
         }
 
         [HttpDelete]
@@ -67,11 +68,7 @@ namespace DesignPatternPracticals.Controllers
         {
             var deleteResult = _dataAccessService.DeleteEmployee(id);
             if (deleteResult == true)
-            {
-                _logger.LogInformation($"Employee details deleted with id = {id}");
                 return Ok("Employee deleted successfully");
-            }
-            _logger.LogInformation($"Employee details can't be deleted with id = {id}");
             return BadRequest("Employee can't be deleted");
         }
     }
