@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hzRP+yFZyxLZh/twc4ytrpzh5ttvcDE6yyd4TnndufhP90Oky9RUuIXXPhu+lZ+1BGFaNqlRHyAd+6OiX6zL0A==",
+  "dgSpecHash": "HUxelkQ9FyGryaQsKcD7MYrJUFZ+dHlpfoOTic1x6TdGAy4Ro7T5kPdo9DTIqUjmsvS4RCoaaimD1iTriwHQTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

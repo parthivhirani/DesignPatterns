@@ -10,10 +10,18 @@ namespace DataAccessLayer.Models
     public class Employee
     {
         public int Id { get; set; }
+        [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
+        [Required]
         public double Salary { get; set; }
+        [Required]
+        [Range(1, 5)]
         public int DepartmentId { get; set; }
+        [Required]
+        [DataType(DataType.EmailAddress)]
         public string EmailId { get; set; }
+        [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime? JoiningDate { get; set; }
         public string? Status { get; set; }

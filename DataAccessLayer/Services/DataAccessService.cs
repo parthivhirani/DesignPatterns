@@ -1,5 +1,7 @@
-﻿using DataAccessLayer.Interfaces;
+﻿using DataAccessLayer.DataConnection;
+using DataAccessLayer.Interfaces;
 using DataAccessLayer.Models;
+using DataAccessLayer.Singleton;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -7,7 +9,9 @@ namespace DataAccessLayer.Services
 {
     public class DataAccessService : IDataAccessService
     {
-        string conString = "data source=.; database=DPPractical; user id=parthiv; password=Rmha@12345678";
+        private readonly string conString = DBCS.ConnectionString();
+
+        private Logger _logger = SingletonClass.GetLoggerInstance();
 
         public List<Employee> GetAllEmployees(int? id)
         {
@@ -36,6 +40,7 @@ namespace DataAccessLayer.Services
                     };
                     empList.Add(employee);
                 }
+                _logger.Log($"Employee details retrieved with Id = {id}");
                 return empList;
             }
         }
@@ -71,10 +76,18 @@ namespace DataAccessLayer.Services
 
                     var response = cmd.ExecuteNonQuery();
                     if (response >= 1)
+                    {
+                        _logger.Log("Employee created successfully");
                         return true;
-                    return false;
+                    }
+                    else
+                    {
+                        _logger.Log("Error in employee creation");
+                        return false;
+                    }
                 }
             }
+            _logger.Log("Error in employee creation");
             return false;
         }
 
@@ -111,7 +124,11 @@ namespace DataAccessLayer.Services
 
                 var editResult = cmd.ExecuteNonQuery();
                 if (editResult == 1)
+                {
+                    _logger.Log($"Employee edited successfully with id = {id}");
                     return true;
+                }
+                _logger.Log("There is some error in employee edit process");
                 return false;
             }
         }
@@ -127,7 +144,11 @@ namespace DataAccessLayer.Services
                 cmd.Parameters.Add(empid);
                 var deleteResult = cmd.ExecuteNonQuery();
                 if (deleteResult == 1)
+                {
+                    _logger.Log($"Employee deleted successfully with id = {id}");
                     return true;
+                }
+                _logger.Log("There is some error occurred while deleting employee");
                 return false;
             }
         }
