@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2eVoTBQA0pBEI4lOmJH9xxPYL/p/Tua/Kd5difp5aFaw5Ha/NzWY4p6SDWZBTCmw+nIaPYUpx8jPMAZv0A3QiQ==",
+  "dgSpecHash": "v7Td1YMBWMMWA2LNDaHGSVnEJXcCTJTZreBV3NJG2U84aeKiEdSO4J25O28JK1729smBmRM0IG2WZBzMt93bLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
