@@ -7,12 +7,13 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CQRSPattern.DataConnection;
 
 namespace CQRSPattern.Repository
 {
     public class EmployeeCommandRepository : IEmployeeCommandRepository
     {
-        string conString = "data source=.; database=DPPractical; user id=parthiv; password=Rmha@12345678";
+        private readonly string conString = DBCS.ConnectionString();
         public bool CreateEmployee(EmployeeCommandModel employeeCommand)
         {
             if (employeeCommand != null)

@@ -1,4 +1,5 @@
-﻿using CQRSPattern.Interfaces;
+﻿using CQRSPattern.DataConnection;
+using CQRSPattern.Interfaces;
 using CQRSPattern.Models;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace CQRSPattern.Repository
 {
     public class EmployeeQueryRepository : IEmployeeQueryRepository
     {
-        string conString = "data source=.; database=DPPractical; user id=parthiv; password=Rmha@12345678";
+        private readonly string conString = DBCS.ConnectionString();
         public List<EmployeeQueryModel> GetAll()
         {
             using (var con = new SqlConnection(conString))

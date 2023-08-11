@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fmwoDscYreoiWC/xQxlXJyZOvjNGq0n+uWqz+xzIGaRAwbjNmymE50TetG6rdUIHDNB81nMBzbpiZejFyuS5iw==",
+  "dgSpecHash": "5+uimlPt3xnebJky0irSCByofCZAwPWfHdJuN5IHjWmpVsuNnsHU3dGhsrL37MfOfGpSpY+FFeyQoOJLVIR56w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+  "projectFilePath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\parthiv\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

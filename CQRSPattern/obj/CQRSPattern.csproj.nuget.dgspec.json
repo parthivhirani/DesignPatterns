@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {}
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj": {
+    "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "projectUniqueName": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj",
         "projectName": "CQRSPattern",
-        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\CQRSPattern.csproj",
+        "projectPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\CQRSPattern.csproj",
         "packagesPath": "C:\\Users\\parthiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatternPracticals\\CQRSPattern\\obj\\",
+        "outputPath": "C:\\Users\\parthiv\\Documents\\Parthiv\\ASP .NET Core\\DesignPatterns\\CQRSPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parthiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
